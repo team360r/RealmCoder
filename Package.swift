@@ -25,7 +25,10 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        // .package(url: "https://github.com/realm/SwiftLint.git", from: "0.31.0"),
+        .package(
+            url: "https://github.com/realm/SwiftLint.git",
+            from: "0.39.1"
+        ),
         .package(
             url: "https://github.com/realm/realm-cocoa.git",
             from: "4.3.2"
