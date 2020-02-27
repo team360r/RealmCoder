@@ -37,7 +37,7 @@ let package = Package(
         // this package depends on.
         .target(
             name: "RealmCoder",
-            dependencies: ["RealmSwift"]),
+            dependencies: ["RealmCoder"]),
         .testTarget(
             name: "RealmCoderTests",
             dependencies: ["RealmCoder"])
